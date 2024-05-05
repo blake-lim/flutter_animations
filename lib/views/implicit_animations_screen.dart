@@ -29,8 +29,8 @@ class _ImplicitAnimationScreenState extends State<ImplicitAnimationScreen> {
           children: [
             const ColorChangingImage(),
             const SizedBox(height: 50),
-            // RotatingContainer(size: size, visible: _visible),
-            // const SizedBox(height: 50),
+            RotatingContainer(size: size, visible: _visible),
+            const SizedBox(height: 50),
             GoButton(onPressed: _toggleVisibility),
           ],
         ),
